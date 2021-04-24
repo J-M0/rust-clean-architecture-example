@@ -12,3 +12,11 @@ domain = { path = "domain" }
 business = { path = "business" }
 infrastructure = { path = "infrastructure" }
 application = { path = "application" }
+
+[workspace]
+members = [
+    "application",
+    "business",
+    "domain",
+    "infrastructure",
+]
