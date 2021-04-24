@@ -1,9 +1,9 @@
 use std::rc::Rc;
 
-use domain::entities::user_entity::UserEntity;
-use domain::errors::add_user_error::AddUserError;
+use crate::domain::entities::user_entity::UserEntity;
+use crate::domain::errors::add_user_error::AddUserError;
 
-use crate::view_models::ViewModel;
+use crate::application::view_models::ViewModel;
 
 pub struct AddUserViewModel {
     user: Option<Rc<UserEntity>>,

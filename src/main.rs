@@ -1,3 +1,8 @@
+mod application;
+mod business;
+mod domain;
+mod infrastructure;
+
 use application::presenters::add_user_presenter::AddUserPresenter;
 use business::add_user_use_case::add_user_input_message::AddUserInputMessage;
 use business::add_user_use_case::add_user_interactor::AddUserInteractor;

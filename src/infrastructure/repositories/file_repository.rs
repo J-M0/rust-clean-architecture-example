@@ -2,9 +2,9 @@ use std::fs::File;
 use std::io::prelude::*;
 use std::path::Path;
 
-use domain::entities::user_entity::UserEntity;
-use domain::errors::add_user_error::AddUserError;
-use domain::ports::add_user_port::AddUserPort;
+use crate::domain::entities::user_entity::UserEntity;
+use crate::domain::errors::add_user_error::AddUserError;
+use crate::domain::ports::add_user_port::AddUserPort;
 
 pub struct FileRepository {
     file_path: String,

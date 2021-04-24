@@ -1,4 +1,4 @@
-use domain::errors::add_user_error::AddUserError;
+use crate::domain::errors::add_user_error::AddUserError;
 
 pub mod add_user_use_case;
 

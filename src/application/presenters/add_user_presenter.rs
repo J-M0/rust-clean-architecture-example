@@ -1,8 +1,8 @@
-use business::add_user_use_case::add_user_output_message::AddUserOutputMessage;
-use business::OutputBoundary;
-use domain::errors::add_user_error::AddUserError;
+use crate::business::add_user_use_case::add_user_output_message::AddUserOutputMessage;
+use crate::business::OutputBoundary;
+use crate::domain::errors::add_user_error::AddUserError;
 
-use crate::view_models::add_user_view_model::AddUserViewModel;
+use crate::application::view_models::add_user_view_model::AddUserViewModel;
 
 pub struct AddUserPresenter {
     view_model: Option<AddUserViewModel>

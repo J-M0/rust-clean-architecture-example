@@ -1,8 +1,8 @@
 use std::rc::Rc;
 
-use domain::entities::user_entity::UserEntity;
+use crate::domain::entities::user_entity::UserEntity;
 
-use crate::OutputMessage;
+use crate::business::OutputMessage;
 
 #[derive(Clone)]
 pub struct AddUserOutputMessage {

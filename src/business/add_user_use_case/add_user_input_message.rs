@@ -1,4 +1,4 @@
-use crate::InputMessage;
+use crate::business::InputMessage;
 
 pub struct AddUserInputMessage {
     last_name: String,
